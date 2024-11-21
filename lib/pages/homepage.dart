@@ -59,7 +59,7 @@ class _homepagesState extends State<homepages> {
                   child: ElevatedButton(onPressed: (){
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) =>  AlarmApp()),
+                      MaterialPageRoute(builder: (context) =>  AlarmScreen()),
                     );
 
                   },
